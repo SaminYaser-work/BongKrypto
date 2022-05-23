@@ -8,13 +8,13 @@ import {
   RainbowKitProvider,
   midnightTheme,
 } from "@rainbow-me/rainbowkit";
-import { chain, createClient, WagmiProvider } from "wagmi";
+import { chain, createClient, WagmiProvider, infuraRpcUrls } from "wagmi";
 
 const { chains, provider } = configureChains(
   [chain.ropsten, chain.mainnet, chain.optimism, chain.arbitrum],
   [
     apiProvider.infura("1117e415d3a548c08946fb713e5ed328"),
-    apiProvider.fallback(),
+    // apiProvider.fallback(),
   ]
 );
 

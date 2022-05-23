@@ -1,7 +1,6 @@
 import { contractAddress, contractABI } from "../utils/constants";
 import { useAccount, useContractRead } from "wagmi";
 import { ethers } from "ethers";
-import Stack from "@mui/material/Stack";
 import Box from "@mui/material/Box";
 import Card from "@mui/material/Card";
 import CardContent from "@mui/material/CardContent";

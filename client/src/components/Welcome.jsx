@@ -199,7 +199,7 @@ export default function Welcome() {
               <Divider />
             </List>
 
-            {waitForTnx.isLoading ? (
+            {isLoading ? (
               <Loader />
             ) : (
               <Button
